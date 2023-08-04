@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* reset */
+
+*{
+    font-family: 'Poppins', sans-serif;;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    background-image: linear-gradient(#000000, #502020, #000000 );
+    
+}
+
+/* #esqueleto {
+    background-image: linear-gradient(#000000, #502020, #000000 );
+} */
+
+.menu h1 {
+    font: 100 30px 'Poppins', sans-serif;
+    margin-left: 5px;
+    color: #DCC580;
+}
+
+.menu img {
+    display: flex;
+    justify-content: left;
+    width: 55px;
+    margin: 10px 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    color: transparent;
+}
+
+/* cmç banner topo */
+
+.container {
+    /* color: #DCC580; */
+    /* font-family: 'Poppins', sans-serif; */
+    margin: -340px 0px 200px 80px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.textotopo h1 {
+    font: 700 20px 'Playfair Display SC', serif;
+    color: #DCC580;
+    text-shadow: white 0.1;
+}
+
+.textotopo p {
+    font: 400 10px 'Yellowtail', cursiva;
+    color: white;
+    text-shadow: white 0.1;
+}
+
+/* fim do banner topo */
+
+/* cmç sorteio */
+
+label {
+    color: white;
+}
+
+#resultado {
+    color: white;
+    
+}
+
+.entrada{
+    margin-bottom: 10px;
+}
+    
+
+/* fim sorteio */
+
+
+
+button {
+    background-color: #DCC580;
+    padding: 7px 72px;
+}
+
+#max {
+    height: 30px;
+    width: 120px;
+    background-color: #dcc58089;
+}
+
+#min {
+    height: 30px;
+    width: 125px;
+    background-color: #dcc58089;
+}
+
+/* cmç premios */
+
+.premios {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #dcc58079;
+    padding: 0px 10px;
+}
+
+
+section img {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+
+
+section h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+section h3 {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+}
+
+.caixa {
+    display: flex;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.caixas {
+    width: 190px;
+    height: 200px;
+    margin: 100px 25px 100px 25px;
+    background-image: linear-gradient(#6b2727,#0000007f, #6b2727 );
+    border-radius: 18px;
+    filter:brightness(0.3);
+    padding: 10px;
+}
+
+.caixas:hover {
+    box-shadow: 5px 7px 18px #000;
+    width: 210px;
+    height: 220px;
+    margin: 100px 15px 70px 15px;
+    transition: 1.0s;
+    background-color: #00000039;
+    filter: brightness(1);
+    padding: 10px;
+}
+
+/* fim premios */
